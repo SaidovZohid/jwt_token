@@ -1,0 +1,5 @@
+@host = localhost:8080
+GET  http://{{host}}/v1/users/1 HTTP/1.1
+content-type: application/json
+
+##
